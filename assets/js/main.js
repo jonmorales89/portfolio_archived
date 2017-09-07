@@ -444,8 +444,8 @@ $(document).ready(function($){
 	if ( $mapWrapper.length > 0 ) {
 		var map = new GMaps({
 			div: '#map',
-			lat : 34.0286,
-			lng : 117.8103,
+			lat : 34.981405,
+			lng : -117.830676,
 			scrollwheel: false,
 			draggable: draggableOp,
 			zoom: 16,
@@ -454,8 +454,8 @@ $(document).ready(function($){
 		});
 
 		map.addMarker({
-			lat : 34.0286,
-			lng : 117.8103,
+			lat : 34.981405,
+			lng : -117.830676,
 			icon: 'images/marker-icon.png',
 			infoWindow: {
 				content: '<p>Jonathan Morales Home Town</p>'
