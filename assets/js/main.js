@@ -448,7 +448,7 @@ $(document).ready(function($){
 			lng : -117.830676,
 			scrollwheel: false,
 			draggable: draggableOp,
-			zoom: 16,
+			zoom: 10,
 			disableDefaultUI: true,
 			styles : mapStyle
 		});
