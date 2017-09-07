@@ -444,8 +444,8 @@ $(document).ready(function($){
 	if ( $mapWrapper.length > 0 ) {
 		var map = new GMaps({
 			div: '#map',
-			lat : 23.79473005386213,
-			lng : 90.41430473327637,
+			lat : 34.0286,
+			lng : 117.8103,
 			scrollwheel: false,
 			draggable: draggableOp,
 			zoom: 16,
@@ -454,11 +454,11 @@ $(document).ready(function($){
 		});
 
 		map.addMarker({
-			lat : 23.79473005386213,
-			lng : 90.41430473327637,
+			lat : 34.0286,
+			lng : 117.8103,
 			icon: 'images/marker-icon.png',
 			infoWindow: {
-				content: '<p>BD InfoSys Ltd, Dhaka, Bangladesh</p>'
+				content: '<p>Jonathan Morales Home Town</p>'
 			}
 		});
 	}
