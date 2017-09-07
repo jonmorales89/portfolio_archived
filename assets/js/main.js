@@ -444,7 +444,7 @@ $(document).ready(function($){
 	if ( $mapWrapper.length > 0 ) {
 		var map = new GMaps({
 			div: '#map',
-			lat : 34.981405,
+			lat : 33.981405,
 			lng : -117.830676,
 			scrollwheel: false,
 			draggable: draggableOp,
@@ -454,7 +454,7 @@ $(document).ready(function($){
 		});
 
 		map.addMarker({
-			lat : 34.981405,
+			lat : 33.981405,
 			lng : -117.830676,
 			icon: 'images/marker-icon.png',
 			infoWindow: {
