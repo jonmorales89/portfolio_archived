@@ -1165,14 +1165,15 @@ header.nav.hide-menu {
 /* 10. Testimonials Styles
  ----------------------------------- */
 
-#testimonial {
-    background: url('../../images/fun-facts-bg.jpg') no-repeat scroll center center / cover;
-}
-
 #testimonial .sec-inner {
     background: rgba(255,255,255, .92);
     height: 100%;
     width: 100%;
+}
+
+.forceSmall > a {
+  font-size: 75% !important;
+  color: #727272;
 }
 
 .testimonial-inner {}
@@ -1258,7 +1259,7 @@ header.nav.hide-menu {
     border-top: 1px solid #eeeeee;
 }
 
-.grey  .regular-text,
+.gray  .regular-text,
 .white  .regular-text {
      color: #727272;
 }
