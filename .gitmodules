@@ -1,0 +1,3 @@
+[submodule "apps/memorymatch"]
+	path = apps/memorymatch
+	url = https://github.com/jonmorales89/memorymatch.git
