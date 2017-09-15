@@ -50,7 +50,7 @@ if($_POST) {
 
 		ini_set("sendmail_from", $siteOwnersEmail); // for windows server
 		$mail = mail($siteOwnersEmail, $subject, $message, $headers);
-
+        echo("Checkout our mail thing".$mail);
 		if ($mail) {
 			$error['OK'] = "done";
 			echo json_encode($error);
