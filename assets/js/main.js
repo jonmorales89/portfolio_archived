@@ -550,7 +550,8 @@ $(window).load(function(){
 			portImgArea = portfolioModal.find('.model-img'),
 			portTitle = portfolioModal.find('.modal-content .title'),
 			portContent = portfolioModal.find('.modal-content .m-content'),
-			portLink = portfolioModal.find('.modal-footer .modal-action');
+			portLink = portfolioModal.find('.modal-footer .modal-action'),
+			portGit = portfolioModal.find('.modal-footer .github');
 		
 		$('#protfolio-msnry').delegate('a.modal-trigger', 'click', function(e){
 			e.preventDefault();
@@ -558,14 +559,14 @@ $(window).load(function(){
 			portfolioModal.openModal({
 				dismissible: true,
 				opacity: '.4',
-				in_duration: 400,
-				out_duration: 400,
+				// in_duration: 400,
+				// out_duration: 400,
 				ready: function() {
 					var imgSrc = $this.data('image-source'),
 					title = $this.data('title'),
 					content = $this.data('content'),
-					demoLink = $this.data('demo-link');
-
+					demoLink = $this.data('demo-link'),
+					gitLink = $this.data('github');
 
 					if ( imgSrc ) {
 						portImgArea.html('<img src="'+imgSrc+'" alt="Portfolio Image" />');
@@ -575,6 +576,20 @@ $(window).load(function(){
 					portTitle.text(title);
 					portContent.text(content);
 					portLink.attr('href', demoLink);
+					portGit.attr('href', gitLink);
+
+					var omit = ['TreeAdvisor', 'Boom Industrial', 'Wanderjoy Vacations', 'Newwell Banker Realestate', 'American Service to India', 'GyroPad'];
+					var show = ['Dance Mentors', 'FilmFunnel','Memory Match', 'Calculator'];
+					for(var i = 0; i <= omit.length-1; i++){
+						if(omit[i] === title){
+							$('a.github').addClass('hideGit');
+						}
+					}
+					for(var i = 0; i <= show.length-1; i++){
+						if(show[i] === title){
+							$('a.github').removeClass('hideGit');
+						}
+					}
 				}
 			});
 		});

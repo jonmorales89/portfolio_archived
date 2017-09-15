@@ -975,7 +975,13 @@ header.nav.hide-menu {
 /* --------------------------------- */
 /* 9. Portfolio Styles
  ----------------------------------- */
+.hideGit{
+  display: none;
+}
 
+.github{
+  margin-bottom: 0;
+}
 .portfolio-wrap {
     padding-bottom: 120px;
 }
@@ -1154,6 +1160,7 @@ header.nav.hide-menu {
 }
 .modal .modal-footer {
     padding: 10px 5px;
+    float: right;
 }
 .modal .modal-footer .btn-flat {
     padding: 0 15px;
