@@ -75,11 +75,6 @@ TOC :
         position: absolute;
     }
 
-    .primary-nav .brand-logo {
-        display: none;
-    }
-
-
     .side-nav li a, .side-nav li.current a, .side-nav li a:hover {
         border: none;
     }
@@ -436,8 +431,17 @@ TOC :
     }
 
 }
+@media only screen and (max-width: 375px) {
+    .primary-nav .brand-logo {
+        max-width: 265px;
+    }
+}
 
 @media only screen and (max-width: 359px) {
+
+    .primary-nav .brand-logo {
+        display: none;
+    }
 
     .home-title {
         font-size: 32px;
