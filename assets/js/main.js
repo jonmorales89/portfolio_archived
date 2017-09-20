@@ -54,14 +54,17 @@ var scrollDirection, $ = jQuery;
 
 $(document).ready(function($){
 
+	$('.dynaP').text('909-979-1204').attr({href:'tel:909-979-1204'});
+	$('.dynaM').text('jon.sal.morales@gmail.com').attr({href:'mailto:jon.sal.morales@gmail.com'});
+
 	var sklSlider = $(".owl-carousel");
 
 	sklSlider.owlCarousel({
-	    rtl:true,
-	    loop:true,
-	    margin:10,
+	    rtl: true,
+	    loop: true,
+	    margin: 10,
 	    nav: true,
-	    items: 5
+	    items: 6
 	})
 
 	$("#skillSlider > .owl-wrapper-outer > .owl-wrapper > .owl-item > .item").addClass("c-skill");

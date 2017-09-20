@@ -737,8 +737,8 @@ header.nav.hide-menu {
 }
 
 .c-skill {
-  height: 100%;
-  margin: 10px;
+  width: 65%;
+  margin: 0 auto;
 }
 
 .faded {
@@ -1208,6 +1208,7 @@ header.nav.hide-menu {
     font-weight: 400;
     line-height: 25px;
     margin-bottom: 15px;
+    width: 90%;
 }
 
 .testimonial-inner .card-content a {

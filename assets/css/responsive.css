@@ -363,6 +363,10 @@ TOC :
 
 @media only screen and (max-width: 479px) {
 
+    .c-skill {
+        width: 50%;
+    }
+
     .home-title {
         font-size: 36px;
     }
