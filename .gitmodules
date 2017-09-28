@@ -4,3 +4,6 @@
 [submodule "apps/memory-match"]
 	path = apps/memory-match
 	url = https://github.com/jonmorales89/memory-match.git
+[submodule "apps/film-funnel"]
+	path = apps/film-funnel
+	url = https://github.com/jonmorales89/film-funnel.git
