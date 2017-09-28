@@ -7,3 +7,6 @@
 [submodule "apps/film-funnel"]
 	path = apps/film-funnel
 	url = https://github.com/jonmorales89/film-funnel.git
+[submodule "apps/jsCalculator"]
+	path = apps/jsCalculator
+	url = https://github.com/jonmorales89/jsCalculator.git
