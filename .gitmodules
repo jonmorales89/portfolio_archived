@@ -1,3 +1,6 @@
 [submodule "apps/memorymatch"]
 	path = apps/memorymatch
 	url = https://github.com/jonmorales89/memorymatch.git
+[submodule "apps/memory-match"]
+	path = apps/memory-match
+	url = https://github.com/jonmorales89/memory-match.git
