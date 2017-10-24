@@ -573,7 +573,7 @@ $(window).load(function(){
 
 					if ( imgSrc ) {
 						portImgArea.html('<img src="'+imgSrc+'" alt="Portfolio Image" />');
-					};
+					}
 
 
 					portTitle.text(title);
@@ -592,6 +592,11 @@ $(window).load(function(){
 						if(show[i] === title){
 							$('a.github').removeClass('hideGit');
 						}
+					}
+					if(title === 'Dance Mentors'){
+						$('a.live').addClass('hideLive');
+					} else {
+                        $('a.live').removeClass('hideLive');
 					}
 				}
 			});

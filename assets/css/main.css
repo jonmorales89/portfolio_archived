@@ -981,7 +981,7 @@ header.nav.hide-menu {
 /* --------------------------------- */
 /* 9. Portfolio Styles
  ----------------------------------- */
-.hideGit{
+.hideGit, .hideLive{
   display: none;
 }
 
